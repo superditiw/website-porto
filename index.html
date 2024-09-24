@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Dimas Triananda</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="TopHeader">
+            <div class="header_kanan">
+                <img src="gambar\profile.png" alt="gambar item" class="gambar_header_kanan">
+            </div>
+            <div class="header_kiri">
+                <h1>
+                    <span class="hi_text">Hi...!</span>
+                    <span class="iam">I'm</span>
+                    <span class="nama">Dimas Triananda</span><br>
+                    <span class="prodi">a Computer Engineering graduate</span>
+                </h1>
+            </div>
+        </div>
+        <nav class="kolom">
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#lab">Practicum Coordinator</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#photography">Photography</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content" class="konten">
+            <article id="aboutme" class="utama">
+                <div class="me">
+                    <h2 style="font-size:20px; margin-bottom:1px;">About me</h2>
+                    <h2 style="font-size:40px; margin-top:1px; margin-bottom:5px; color:rgb(46, 117, 164); font-weight:bolder;">Who am I?</h2>
+                    <div class="box">
+                        <p>Hello guys! my name is Dimas Triananda Murti Putra a Computer Engineering fresh graduate of Sepuluh Nopember Institute of Technology with a CGPA of 3,43. 
+                            <br>During my college years, I actively participated in organizatioins and committees that honed my soft skills such as problem-solving, teamwork, and leadership. Besides that, I also took part in several assignment projects.
+                            <br>I am extremely interested in <b>Front-End Developer</b> and several other <b>IT projects</b>.</p>
+                    </div> 
+                </div>
+                <div class="fotoku">
+                    <img src="gambar\fotoo.png" alt="fotoganteng" class="gantenk">
+                </div>
+            </article>
+            <article id="project" class="kedua">
+                <h2 style="margin-bottom: 1px;">Project</h2>
+                <h2 style="font-size:40px; margin-top:1px; margin-bottom:5px; color:rgb(46, 117, 164); font-weight:bolder;">What've I built?</h2>
+                <div class="modal-container">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logCabinModal1"> 
+                        <img src="gambar/1.png" alt="Open Modal 1">
+                    </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logCabinModal2"> 
+                        <img src="gambar/2.png" alt="Open Modal 2">
+                    </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logCabinModal3"> 
+                        <img src="gambar/3.png" alt="Open Modal 3">
+                    </button>
+                </div>
+                
+                <!-- Modal 1 -->
+                <div class="modal fade" id="logCabinModal1" tabindex="-1" aria-labelledby="logCabinModalLabel1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #353535;">&#9587;</button>
+                                <h3 class="modal-title" id="logCabinModalLabel1" style="font-size: 30px;">Lip Gesture-Based for Wheelchair Movement using CNN</h3>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p>This is a collaborative project with my friends and also served as my final thesis. Together with five of my friends, we created a motion control device for a wheelchair. On the hardware side, I assisted with soldering the wires connected to the wheelchair. For the software, I developed a mouth movement detector using Mediapipe. The dataset I used consisted of photos of my mouth, which I trained using a CNN architecture that I previously created. This project resulted in an electric wheelchair that could be controlled using the user's lip gestures while seated in the wheelchair. The benefits I gained from this project were completing my thesis, developing my soldering skills, and a better understanding of Python programming, particularly CNN in machine learning. Below, I have attached the schematic of this device, metodology of this project, and the architecture of CNN</p>
+                                <img src="gambar/skematik.png" alt="skematik" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 700px; height: auto;"><br>
+                                <img src="gambar/metodologi.png" alt="metodologi" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 150px; height: auto;"><br>
+                                <img src="gambar/arsitektur.png" alt="arsitektur" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 350px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 2 -->
+                <div class="modal fade" id="logCabinModal2" tabindex="-1" aria-labelledby="logCabinModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #353535;">&#9587;</button>
+                                <h3 class="modal-title" id="logCabinModalLabel2" style="font-size: 30px;">DestiGo</h3>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p>This is my capstone project for the Bangkit Academy program. It was a collaborative project created as the final assignment for the program, consisting of six members from three different learning paths: one from Application Development, three from Machine Learning, and two from Cloud Computing. We created a travel and culinary destination recommendation app. I was part of the Cloud Computing learning path and contributed to the back-end of the application, specifically deploying the compute engine and app engine. The benefits I gained from this project include completing the Bangkit program with my teammates and acquiring knowledge about both back-end and front-end development, particularly from the learning path I followed. I also got a lot of new friends too. Theese are the documentations of the application.</p>
+                                <img src="gambar/bangkit1.png" alt="bangkit1" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 250px; height: auto;">
+                                <img src="gambar/bangkit2.png" alt="bangkit2" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 250px; height: auto;">
+                                <img src="gambar/bangkit3.png" alt="bangkit3" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 250px; height: auto;">
+                                <img src="gambar/bangkit4.png" alt="bangkit4" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 250px; height: auto;">
+                                <img src="gambar/bangkit5.png" alt="bangkit5" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 250px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 3 -->
+                <div class="modal fade" id="logCabinModal3" tabindex="-1" aria-labelledby="logCabinModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #353535;">&#9587;</button>
+                                <h3 class="modal-title" id="logCabinModalLabel3" style="font-size: 30px;">Vertical Jump Measurer</h3>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p>This is a collaborative project with my friends and also the final project of the telematics project course. We created a jump height measuring device using ultrasonic sensors. The results obtained will be uploaded to a local host website that will display the jump height and previous history as well as a comparison graph. In this project I participated in making the hardware of the tool from soldering to making the prototype of the tool. The benefits I got from this project were completing my assignment and developing my soldering skills. Theese are the documentations of the tool and the webpage.</p>
+                                <img src="gambar/verjas1.jpg" alt="verjas1" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;"><br>
+                                <img src="gambar/verjas2.jpeg" alt="verjas2" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 400px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal-container2">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logCabinModal4"> 
+                        <img src="gambar/4.png" alt="Open Modal 4">
+                    </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logCabinModal5"> 
+                        <img src="gambar/5.png" alt="Open Modal 5">
+                    </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#logCabinModal6"> 
+                        <img src="gambar/6.png" alt="Open Modal 6">
+                    </button>
+                </div>
+                
+                <!-- Modal 1 -->
+                <div class="modal fade" id="logCabinModal4" tabindex="-1" aria-labelledby="logCabinModalLabel4" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #353535;">&#9587;</button>
+                                <h3 class="modal-title" id="logCabinModalLabel4" style="font-size: 30px;">Digital Clock Embedded System</h3>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p>This is my final project from the embedded system course. I made a digital clock using Arduino Uno with several sensors, namely a light sensor (LDR), a temperature sensor (LM35) and an RTC module displayed on a Dot Matrix. Some of the features displayed on the Dot Matrix include a clock, temperature, and brightness that automatically matches the room's lighting. The benefits I get from this project are that I get a new clock made by myself and I understand a little about embedded system programming using Arduino Uno. Theese are the documentations of the tool.</p>
+                                <img src="gambar/embed1.png" alt="embed1" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;"><br>
+                                <img src="gambar/embed2.png" alt="embed2" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;"><br>
+                                <img src="gambar/embed3.png" alt="embed3" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 2 -->
+                <div class="modal fade" id="logCabinModal5" tabindex="-1" aria-labelledby="logCabinModalLabel5" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #353535;">&#9587;</button>
+                                <h3 class="modal-title" id="logCabinModalLabel5"style="font-size: 30px;">Coming Soon! :D</h3>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="gambar/hehe.png" alt="Log Cabin Image 5" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal 3 -->
+                <div class="modal fade" id="logCabinModal6" tabindex="-1" aria-labelledby="logCabinModalLabel6" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 10px; background: none; border: none; color: #353535;">&#9587;</button>
+                                <h3 class="modal-title" id="logCabinModalLabel6">Modal 6 Title</h3>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p>This is my final project from the digital circuit course. I made a circuit tool with logic similar to a vending machine but implemented using a series of led lights. With the provision of learning for 1 semester about digital circuit logic equations about NOT, AND, OR, NOR, and others, I assembled the project from the logic of how to work to the manufacture of hardware. The benefit I get from this project is that I have completed my digital circuit course and learned about digital circuit logic. Theese are the the documentations of the tool, schematic, and simulation.</p>
+                                <img src="gambar/rdig1.png" alt="embed1" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;"><br>
+                                <img src="gambar/rdig2.png" alt="embed2" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;"><br>
+                                <img src="gambar/rdig3.png" alt="embed3" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;"><br>
+                                <img src="gambar/rdig4.png" alt="embed3" class="img-fluid rounded" style="box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; width: 600px; height: auto;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <article id="lab" class="ketiga">
+                <h2 style="font-size:20px; margin-bottom:1px;">Practicum Coordinator</h2>
+                <h2 style="font-size:40px; margin-top:1px; margin-bottom:5px; color:rgb(46, 117, 164); font-weight:bolder;">What've I done?</h2>
+                <div class="practicum-container">
+                    <div class="praktikum-kiri">
+                        <div class="baris_judul">
+                            <img src="gambar\miot.png" alt="miot" class="logo_praktikum">
+                            <h3 class="title_praktikum">Basic Programming Practicum 2023</h3>
+                        </div>
+                        <p>Basic programming practicum is a practicum with 4 modules that discuss the basics of programming using the C language. At the end of the practicum or after the 4th module, practicum students are given a final project, namely creating a program according to the commands or instructions obtained. I was the coordinator of the practicum from August to December 2023. My task in this practicum is to maintain the room during the practicum and provide assistance to students after completing the practicum.</p>
+                        <img src="gambar\dasprog.png" alt="alprog" class="foto_praktikum">
+                    </div>
+                    <div class="praktikum-kanan">
+                        <div class="baris_judul">
+                            <img src="gambar\b4.png" alt="miot" class="logo_praktikum">
+                            <h3 class="title_praktikum">Digital Circuit Pracitcum 2023</h3>
+                        </div>
+                        <p>Digital circuit practicum is a practicum with 5 modules that discuss digital circuits ranging from basic circuits, combinational circuits, and sequential circuits. In addition to learning about the logic of the digital circuit, students also implement it in a circuit using a PCB Board with the conditions set in each group. I became the coordinator of the practicum from February to June 2023. In addition to being the practicum coordinator, I also made several designs needed for instagram feeds, google form headers, and practicum book designs.</p>
+                        <img src="gambar\rdig.png" alt="alprog" class="foto_praktikum">
+                    </div>
+                </div>
+            </article>
+
+            <article id="experience" class="keempat">
+                <h2 style="font-size:20px; margin-bottom:1px;">Experience</h2>
+                <h2 style="font-size:40px; margin-top:1px; margin-bottom:5px; color:rgb(46, 117, 164); font-weight:bolder;">What did I do?</h2>
+                <section class="timeline">
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\miot.png" alt="MIOT" class="logo_experience">
+                            <p><span class="ble">Multimedia Internet of Things (M-IoT) Lab ITS</span>
+                            <time>Researcher</time>September 2023 - August 2024</p>
+                            <ul>
+                                <li>Collaborated with a team of engineers to develop microcontroller wheelchair</li>
+                                <li>Gained knowledge in machine learning, computer vision, design and application of Internet of Things, mobile programming, big data and web technology, and advanced computer network</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\bangkit.png" alt="bangkit" class="logo_experience" style="width: 160px;">
+                            <p><span class="ble">Bangkit Academy</span>
+                            <time>Cloud Computing Cohort 2023</time>February 2023 - June 2023</p>
+                            <ul>
+                                <li>Oversee laboratory sessions for each modules</li>
+                                <li>Provided assistance to student groups</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\miot.png" alt="miot" class="logo_experience">
+                            <p><span class="ble">Practicum Coordinator</span>
+                            <time>Basic Programming Lab 2023</time>August 2023 - December 2023</p>
+                            <ul>
+                                <li>Oversee laboratory sessions for each module and providing assistance to student groups</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\b401.png" alt="bangkit" class="logo_experience">
+                            <p><span class="ble">Practicum Coordinator</span>
+                            <time>Digital Circuit 2023</time>February 2023 - June 2023</p>
+                            <ul>
+                                <li>Oversee laboratory sessions for each module and provide assistance to student groups</li>
+                                <li>Created designs for posters, headers, Instagram feeds, and many more</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\icarus.png" alt="icarus" class="logo_experience">
+                            <p><span class="ble">ITS Basketball Student Activity Unit</span>
+                            <time>Vice Chairman 1, Cabinet Icarus</time>February 2023 - December 2023</p>
+                            <ul>
+                                <li>Represented the chairman and oversee the internal divisions, especially the human resource development, and the Events division Scheduled and prepared monthly cabinet meetings</li>
+                                <li>Oversee every event that the UKM has organized</li>
+                                <li>Scheduled and prepared monthly cabinet meetings</li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <!-- <img src="gambar\icarus.png" alt="bangkit" class="logo_experience"> -->
+                            <p><span class="ble">Syukuran Pelepasan Sarjana (Graduation Ceremony)</span>
+                            <time>Vice Chairman, SPS 127 </time>March 2023</p>
+                            <ul>
+                                <li>Responsible for representing the chairman</li>
+                                <li>Oversee the Consumption Events divisions, and Transportation Accommodation</li>
+                                <li>Taking the lead of the consumption division to carry out its duties</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\legion.png" alt="legion" class="logo_experience">
+                            <p><span class="ble">ITS Basketball Student Activity Unit</span>
+                            <time>Staff of Human Resources Development, Cabinet Legion</time>January 2022 - January 2023</p>
+                            <ul>
+                                <li>Developed the human resources of members of the Student Activity Unit with practice</li>
+                                <li>Scheduled and preparing weekly practice routines</li>
+                                <li>Prepared the team's needs for the basketball tournament</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <!-- <img src="gambar\icarus.png" alt="bangkit" class="logo_experience"> -->
+                            <p><span class="ble">Syukuran Pelepasan Sarjana (Graduation Ceremony)</span>
+                            <time>Head of the Consumption Division, SPS 126</time>September 2022</p>
+                            <ul>
+                                <li>Preparing consumption graduates and their parents and the SPS event committees.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\hima.png" alt="hima" class="logo_experience">
+                            <p><span class="ble">HIMATEKKOM (Computer Engineering Student Association)</span>
+                            <time>Staff of Internal Affairs</time>January 2022 - January 2023</p>
+                            <ul>
+                                <li>Collected data related to the interests and talents of all active Computer Engineering students</li>
+                                <li>Created sports activities and play games with all students</li>
+                                <li>Organized a talk show featuring experience sharing with Computer Engineering alumni</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\diesnat.png" alt="diesnat" class="logo_experience">
+                            <p><span class="ble">Dies Natalis ITS 62th,  ITS Sportainment Basketball</span>
+                            <time>Head of the Equipment and Logistics Division</time>September 2022 - August 2022</p>
+                            <ul>
+                                <li>Prepared all the equipment needed at the event</li>
+                                <li>Assisted in maintaining order and security during the event</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\gerigi.png" alt="gerigi" class="logo_experience">
+                            <p><span class="ble">GERIGI ITS 2022</span>
+                            <time>Group Mentor</time>August 2022</p>
+                            <ul>
+                                <li>Lead 16 new student members</li>
+                                <li>Delivered a presentation on Student Orientation and Campus Introduction</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\mage8.png" alt="mage8" class="logo_experience">
+                            <p><span class="ble">Multimedia and Game Event (MAGE)</span>
+                            <time>Staff of Public Relations and Marketing, MAGE 8</time>March 2022 - December 2022</p>
+                            <ul>
+                                <li>Promoted about the event to high schools in Surabaya with a roadshow</li>
+                                <li>Distributed proposals and explained a little about the event to school representatives to hold a roadshow</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                            <img src="gambar\mage7.png" alt="mage7" class="logo_experience">
+                            <p><span class="ble">Multimedia and Game Event (MAGE)</span>
+                            <time>Staff of Business Fundraising, MAGE 7</time>March 2021 - November 2021</p>
+                            <ul>
+                                <li>Raised additional funds through the sale of merchandise, food, and other services</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div>
+                        <!-- <img src="gambar\mage7.png" alt="diesnat" class="logo_experience"> -->
+                            <p><span class="ble">Gathering Event (GATE)</span>
+                            <time>Staff of Publication and Documentation</time>December 2021</p>
+                            <ul>
+                                <li>Designed the virtual background, event logo, and documentation during the event</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <script type="text/javascript" src="script.js"></script>
+            </article>
+
+            <article id="photography" class="kelima">
+                <h2 style="font-size:20px; margin-bottom:1px;">Phtotography</h2>
+                <h2 style="font-size:40px; margin-top:1px; margin-bottom:5px; color:rgb(46, 117, 164); font-weight:bolder;">This is just a bonus</h2>
+                <div class="container-foto">
+                    <img src="gambar\foto5.jpg" class="landscape" style="width: 100%; height: auto;">
+                    <img src="gambar\foto2.jpg" class="potrait" style="width: 100%; height: auto;">
+                    <img src="gambar\foto3.jpg" class="potrait" style="width: 100%; height: auto;">
+                    <img src="gambar\foto4.jpg" class="potrait" style="width: 100%; height: auto;">
+                    <img src="gambar\foto1.jpg" class="landscape" style="width: 100%; height: auto;">
+                    <img src="gambar\foto6.jpg" class="potrait" style="width: 100%; height: auto;">
+                    <img src="gambar\foto7.jpg" class="potrait" style="width: 100%; height: auto;">
+                    <img src="gambar\foto8.jpg" class="potrait" style="width: 100%; height: auto;">
+                    <img src="gambar\foto9.jpg" class="landscape" style="width: 100%; height: auto;">
+                </div>
+                <p>Hey! This is the last part of my portfolio, and these are my photography works. I do like photography. I took photography classes while I was in college, and these are some of my best works. Check out my completed tasks <a href="https://drive.google.com/drive/folders/1WmzpSqj43Y2PW1B2l6Q3WQpuF1kaWyan?usp=drive_link">here</a></p>
+            </article>
+        </div>
+
+        <aside id="contact" class="contact">
+            <h2 style="font-size:20px; margin-bottom:1px;">Contact</h2>
+            <h2 style="font-size:40px; margin-top:1px; margin-bottom:5px; color:rgb(46, 117, 164); font-weight:bolder;">Hit me up!</h2>
+            <div class="profil ">
+                <div class="last">
+                    <p>I'm available for freelance or fulltime positions<br>feel free to contact me on<br><time>dtmp1412@gmail.com</time><br> or you can click buttons below<br> Thank you for coming! Hope you enjoy!</p><br><br>
+                    <div class="sosmed ">
+                        <!-- <h3>find me on:</h3><br> -->
+                        <a href="https://www.linkedin.com/in/dimastriananda/"><img src="assets/image/linkedin.png " alt="logo linkedin" width="50 "></a>
+                        <a href="https://github.com/superditiw"><img src="assets/image/github.png " alt="logo github" width="50 "></a>
+                        <a href="https://www.instagram.com/dimastriananda/"><img src="assets/image/instagram.png " alt="logo ig" width="50 "></a>
+                        <a href="https://www.twitch.tv/superditiw"><img src="assets/image/twitch.png " alt="logo twitch" width="50 "></a>
+                    </div>
+                </div>
+                <div class="comment-form-container">
+                    <form id="comment-form" action="https://getform.io/f/byvpxjma" method="POST">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+            
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+            
+                        <div class="input-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+            
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+            
+                        <div class="input-group">
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div><br><br><br>
+        </aside>
+    </main>
+    <footer>
+        <p>2024 © dimastriananda™</p>
+    </footer>
+</body>
